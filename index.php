@@ -1,2 +1,2 @@
 <?php
-if(@$n=$_GET[p])@fwrite(fopen(p,a),"<p>$n");@readfile(p);?><form><input name=p>
+@fwrite(fopen(1,a),$_GET?"<p>$_GET[0]":'');readfile(1)?><form><input name=0>
